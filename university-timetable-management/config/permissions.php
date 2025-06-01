@@ -1,0 +1,42 @@
+<?php
+return [
+    'admin' => [
+        'dashboard.php',
+        'students/view_students.php',
+        'teachers/view_teachers.php',
+        'subjects/view_subjects.php',
+        'timetable/view_timetable.php',
+        'timetable/today_timetable.php',
+        'timetable/generate_overall_timetable.php',
+        'admin/manage_classes.php',
+        'admin/manage_students.php',
+        'admin/manage_teachers.php',
+        'admin/manage_timetables.php',
+        'admin/export_students.php',
+        'admin/export_teachers.php',
+        'admin/export_classes.php',
+        'admin/export_timetables.php',
+        'admin/edit_student.php',
+        'admin/edit_teacher.php',
+        'admin/edit_class.php',
+        'admin/edit_timetable.php',
+        'settings.php',
+        'profile.php',
+        'courses/courses.php', // ✅ Add this line
+    ],
+    'teacher' => [
+        'dashboard.php',
+        'subjects/view_subjects.php',
+        'timetable/view_timetable.php',
+        'timetable/today_timetable.php',
+        'profile.php',
+        'courses/courses.php',
+    ],
+    'student' => [
+        'dashboard.php',
+        'timetable/view_timetable.php',
+        'timetable/today_timetable.php',
+        'profile.php',
+        'courses/courses.php',
+    ],
+];
